@@ -17,8 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from Equiride.views import my_Equiride
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('Equiride/', my_Equiride, name='Equiride'),
+    path('', include("booking.urls")),
+    path('user', include('members.urls')),
+
+
 ]

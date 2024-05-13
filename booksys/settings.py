@@ -42,10 +42,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Equiride',
-    # other apps
-    'appointment',
+    'booksys',
+    'members',
+    # other apps for email notficiation for when a booking is made
     'django_q',
-]
 ]
 
 MIDDLEWARE = [
