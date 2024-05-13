@@ -42,6 +42,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Equiride',
+    # other apps
+    'appointment',
+    'django_q',
+]
 ]
 
 MIDDLEWARE = [
