@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     #Apps
     'booksys',
     'Equiride',
+    'templates',
     #'members',
     # other apps for email notficiation for when a booking is made
     'django_q',
@@ -64,9 +65,7 @@ ROOT_URLCONF = 'booksys.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [
-            os.path.join(BASE_DIR, 'templates'),
-        ],
+        'DIRS': [os.path.join(BASE_DIR)],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
