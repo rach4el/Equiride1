@@ -142,12 +142,12 @@ nav{
     text-align: center;
 }
 
-#home__hero{
+#home__page{
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
-#hero__content{
+#home__content{
     max-width: 800px;
     margin: 0 auto;
     text-align: center;

@@ -2,6 +2,7 @@ from django.urls import path
 from .views import Index
 
 
+
 urlpatterns = [
-    path('', Index.as_views(), name='Equiride')
+    path('', Index.as_view(), name='Equiride')
 ]

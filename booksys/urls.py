@@ -15,15 +15,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from Equiride.views import my_Equiride
 from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Equiride/', my_Equiride, name='Equiride'),
-    path('', include("booking.urls")),
-    path('user', include('members.urls')),
+    path('', include("Equiride.urls")),
+    #path('user', include('members.urls')),
 
 
 ]

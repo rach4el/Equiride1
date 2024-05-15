@@ -16,13 +16,13 @@
         {% if registered %} 
             <p class="text--success">You have already registed for this event || </p>
         {% else %}
-            <a class="btn btn--primary"  href="{% url 'registration-confirmation' event.id %}">Register</a>
+            <a class="btn btn--primary"  href="/templates/user_form.html">Register</a>
         {% endif %}
 
         {% if submitted %} 
             <p class="text--success">You have already submitted your project</p>
         {% else %}
-            <a class="btn btn--secondary" href="{% url 'project-submission' event.id %}">Submit Project</a>
+            <a class="btn btn--secondary" href="/templates/submit_form.html">Booking details form</a>
         {% endif %}
     
     </div>

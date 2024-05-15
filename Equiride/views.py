@@ -10,4 +10,4 @@ from django.views.generic import TemplateView
 #   return render(request, 'homepage.html')
 
 class Index(TemplateView):
-    template_name = "Equiride/templates/home/index.html"
+    template_name = "Equiride/index.html"
